@@ -3,7 +3,7 @@ import time
 import urllib.request
 from kafka import KafkaProducer
 
-API_KEY = "db43fcc772eac2cbebf031f2763a89ec2c79aa36"
+API_KEY = "YOUR KEY"
 url = f"https://api.jcdecaux.com/vls/v1/stations?apiKey={API_KEY}"
 
 # Dictionary to track stations' availability
